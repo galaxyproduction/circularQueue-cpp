@@ -1,33 +1,39 @@
 Queue is Empty
+Queue is not full.
 Number of items in the Queue is: 0
 Queue Underflow, exception thrown!
-Queue Underflow, exception thrown!
 10 is enqueued.
+Item at the front of the queue is 10
 20 is enqueued.
 30 is enqueued.
 40 is enqueued.
 50 is enqueued.
+Item at the front of the queue is 10
 10 20 30 40 50 
+Queue is Not Empty
+Queue is full.
 Number of items in the Queue is: 5
-Queue Overflow, exception thrown!
 10 is dequeued. 
-Number of items in the Queue is: 4
-20 30 40 50 
 20 is dequeued. 
 30 is dequeued. 
-500 is enqueued.
-40 50 500 
-400 is enqueued.
-40 50 500 400 
 40 is dequeued. 
-50 500 400 
-Queue is Not Empty
-50 500 400 
-10 is enqueued.
-3 is enqueued.
-Queue Overflow, exception thrown!
-Queue Overflow, exception thrown!
-Queue Overflow, exception thrown!
-50 500 400 10 3 
-
+50 is dequeued. 
+Queue Underflow, exception thrown!
 Queue is Empty
+Queue is not full.
+Number of items in the Queue is: 0
+1 is enqueued.
+2 is enqueued.
+3 is enqueued.
+4 is enqueued.
+5 is enqueued.
+Queue Overflow, exception thrown!
+Item at the front of the queue is 1
+Queue is Not Empty
+Queue is full.
+Number of items in the Queue is: 5
+Item at the front of the queue is 1
+Queue is Empty
+Queue is not full.
+Number of items in the Queue is: 0
+Queue Underflow, exception thrown!

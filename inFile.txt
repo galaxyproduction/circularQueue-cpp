@@ -1,35 +1,41 @@
 isempty
+isfull
 length
-dequeue
 peek
 enqueue 10
+peek
 enqueue 20
 enqueue 30
 enqueue 40
 enqueue 50
-list
-length
-enqueue 100
-dequeue
-length
-list
-dequeue
-dequeue
-enqueue 500
-list
-enqueue 400
-list
-dequeue
+peek
 list
 isempty
-list
-enqueue 10
+isfull
+length
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+isempty
+isfull
+length
+enqueue 1
+enqueue 2
 enqueue 3
-enqueue 130
-enqueue 10
-enqueue 55
-list
-clear
-list
+enqueue 4
+enqueue 5
+enqueue 6
+peek
 isempty
+isfull
+length
+peek
+clear
+isempty
+isfull
+length
+peek
 quit

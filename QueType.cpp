@@ -61,7 +61,7 @@ T QueType<T>::peek() {
         throw QueueUnderflow();
     }
 
-    return items[front];
+    return items[(front + 1) % maxQue];
 }
 
 template<class T>
