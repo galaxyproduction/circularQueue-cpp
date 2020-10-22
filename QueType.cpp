@@ -16,7 +16,7 @@ QueType<T>::QueType(int max) {
 
 template<class T>
 QueType<T>::~QueType() {
-    delete items;
+    delete[] items;
 }
 
 template<class T>
